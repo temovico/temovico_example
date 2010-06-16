@@ -3,7 +3,7 @@
 error_log("got here");
 include_once "{$GLOBALS['temovico']['framework_root']}/Controller.php";
 include_once "{$GLOBALS['temovico']['framework_root']}/Logger.php";
-include_once "{$GLOBALS['temovico']['website_root']}/models/User.php";
+include_once "{$GLOBALS['temovico']['website_root']}/app/models/User.php";
 
 class HomeController extends Controller {
     

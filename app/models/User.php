@@ -2,7 +2,7 @@
 
 include_once "{$GLOBALS['temovico']['framework_root']}/MySQLDatabaseService.php";
 include_once "{$GLOBALS['temovico']['framework_root']}/MySQLModel.php";
-include_once "{$GLOBALS['temovico']['website_root']}/models/TwitterService.php";
+include_once "{$GLOBALS['temovico']['website_root']}/app/models/TwitterService.php";
 
 class User extends MySQLModel {  
     

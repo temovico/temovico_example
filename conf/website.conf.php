@@ -1,6 +1,6 @@
 <?php
 
-// TODO: maybe build a wrapper around this so user can do Config::param('key', 'nested key', 'more nested key').. not sure if that's worth it or cool...
+// TODO: maybe build a wrapper around this so user can do Config::param('key', 'nested key', 'more nested key').. not sure if that's worthwhile or the overhead is justified or even properly readable. 
 
 // php.ini stuff here
 date_default_timezone_set("America/Los_Angeles");
@@ -14,7 +14,7 @@ $TEMOVICO_WEBSITE_NAME = 'my website';
 $GLOBALS['temovico'] = array(
   
   'website_root' => $TEMOVICO_WEBSITE_ROOT,
-  'framework_root' => realpath(dirname(__FILE__) . '/../../temovico/'),
+  'framework_root' => realpath(dirname(__FILE__) . '/../../temovico/src/'),
   'website_name' => $TEMOVICO_WEBSITE_NAME,
   'salt' => "HELLO_WEB_USER!",
   'response_types' => array('json', 'xml', 'rss', 'html', 'csv'),
