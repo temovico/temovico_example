@@ -1,0 +1,4 @@
+Example implementation of dummy webapp using http://github.com/temovico/temovico
+
+Clone this repo parallel to temovico or adjust the settings in website.conf.php accordingly. 
+
